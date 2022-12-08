@@ -23,7 +23,7 @@ loop_hex2:
 
 loop_hex_end:
 	mov bx, HEX_OUT
-	call print
+	call print_str
 
 	popa
 	ret
